@@ -19,7 +19,7 @@ public class CardTrick {
             
             c.setSuit(Card.SUITS[(int)((Math.random()*4)+0)]);
             c.setValue((int)((Math.random()*13)+1));
-
+            System.out.println(c.getValue() + " of " + c.getSuit());
             
             myHand[i] = c;
         }
