@@ -1,5 +1,12 @@
 package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
+/**
+ * 
+ * @author Joshua
+ * Student ID: 991598983
+ * Student Name: Raphael Joshua Fortes
+ */
+
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
@@ -34,8 +41,6 @@ public class Card {
         this.value = value;
     }
    
-   
-    
 }
 
 
